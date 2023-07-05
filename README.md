@@ -1,10 +1,16 @@
 # **Welcome to  Night Dream Development github's.**
-### This script is for qb-core. It is important to know that you will need two things to run this script.
+### This script is for qb-core. It is important to know that you will need three things to run this script.
 
 ## Required!
-[Project Sloth UI](https://github.com/NightDream-Development/nd-dumpdive/tags)
+[Project Sloth UI](https://github.com/Project-Sloth/ps-ui) 
 
-[QBCore Framework](https://github.com/NightDream-Development/nd-dumpdive/tags)
+[QBCore Framework](https://github.com/qbcore-framework/qb-core) 
+
+[QB Target](https://github.com/qbcore-framework/qb-target)  or  [OX Target](https://github.com/overextended/ox_target) **(but ox can bugg out the script!!)**
+
+[QB ProgressBar](https://github.com/qbcore-framework/progressbar) (Optional Can use other)
+
+[OX Library](https://github.com/overextended/ox_lib) (Optional Can use other)
 
 
 _The installation instructions for ps ui It can be found at the bottom of the github page. i.e. I'll help you... Just install it. Rename it (delete the -master text) and copy it to the [standalone] folder. From now on you don't have to do anything else because it will start by itself on every server restart._
