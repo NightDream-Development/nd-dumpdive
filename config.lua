@@ -40,7 +40,6 @@ Config.Props = {   --the prop list of bins and dumpsters. i added all of the bin
 }
 
 -- #reset / reset time config
-
 Config.ResetOnReboot = false  --if this enabled, you dont need the lover config, cuz its reloads only at server restart
 Config.ResetTime = 30  --if this enabled, you dont need the upper config, cuz its reloads every 30 minutes
 
@@ -48,6 +47,8 @@ Config.ResetTime = 30  --if this enabled, you dont need the upper config, cuz it
 Config.Minigame = 'ps-ui' --this either can be ps-ui or ox!
 Config.ProgressTime = 8 --progress time in second, you can change it, but i recommend this 8s.
 
+--#target options
+Config.target = 'ox' --THis can be qb or ox! I recommend everyone to use ox!
 
 --# loot config
 Config.CanLootMultiple = true  -- can multiply loot if this false then can crash te script so if you dont want multiple items ten change te loottable max to 1 
