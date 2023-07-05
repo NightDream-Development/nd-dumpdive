@@ -1,4 +1,4 @@
-# nd-dumping
+# Nd Dumping Script
 
 Welcome to the Night Dream Development github.
 This script is for qb-core. It is important to know that you will need two things to run this script. 
@@ -6,7 +6,7 @@ First:
 -QB-Core framework from: https://github.com/qbcore-framework/qb-core
 -PS-UI from: https://github.com/Project-Sloth/ps-ui
 
-# The installation instructions for ps ui
+# The installation instructions for ps ui and my script
 
 It can be found at the bottom of the github page.
 i.e. I'll help you... Just install it. Rename it (delete the -master text) and copy it to the [standalone] folder.  From now on you don't have to do anything else because it will start by itself on every server restart. 
