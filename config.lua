@@ -45,7 +45,7 @@ Config.ResetOnReboot = false  --if this enabled, you dont need the lover config,
 Config.ResetTime = 30  --if this enabled, you dont need the upper config, cuz its reloads every 30 minutes
 
 --#minigame config (ignor this. U could use other scripts.) or if you dont want use minigame, then just put two line befor the config.minigame
-Config.Minigame = 'ps-ui' --ps ui. minigame type. Can use other minigames like maze or something.
+Config.Minigame = 'ps-ui' --this either can be ps-ui or ox!
 Config.ProgressTime = 8 --progress time in second, you can change it, but i recommend this 8s.
 
 
