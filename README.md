@@ -22,10 +22,6 @@ Have fun!
 
 Night Dream Development Team 2023©
 
-MIT License
-
-Copyright (c) 2023 NightDream
-
 
 
 
