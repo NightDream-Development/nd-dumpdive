@@ -23,8 +23,8 @@ else
         exports.ox_target:addModel(Config.Props, 
         options = {
             name = 'startwork',
-            icon = 'fa-solid fa-road',
-            label = locale('start_work'),
+            icon = 'fa-solid fa-dumpster,
+            label = locale('target.label'),
             onSelect = function(ent)
                 isBusy = true
                 dumpsterdive(ent)
