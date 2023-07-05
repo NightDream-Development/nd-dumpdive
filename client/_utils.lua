@@ -12,8 +12,10 @@ if  Config.Minigame == 'ps-ui' then
     end
 else
     if Config.Minigame == 'ox' then
+        function MiniGame()
         local success = lib.skillCheck({'easy', 'easy', {areaSize = 60, speedMultiplier = 2}, 'hard'}, {'1', '2', '3', '4'})
         return success
+        end
     end
 end
 

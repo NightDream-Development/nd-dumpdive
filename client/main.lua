@@ -47,8 +47,6 @@ function dumpsterdive(ent)
     QBCore.Functions.TriggerCallback('nd-dumpdive:server:getEntityState', function(wasDived)
         if not wasDived then
             isBusy = true
-        
-
             if not Config.Minigame then
                 ProgressBar(ent)
             else
