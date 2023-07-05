@@ -1,4 +1,4 @@
-# **Welcome to  Night Dream Development github's.**
+# **NightDream - Dumpster Dive**
 ### This script is for qb-core. It is important to know that you will need three things to run this script.
 
 ## Required!
@@ -17,7 +17,7 @@ _The installation instructions for ps ui It can be found at the bottom of the gi
 
 ### **Install nd-dumpdive**
 
-_Get the [Latest Version](https://github.com/NightDream-Development/nd-dumpdive/tags) of the script_
+_Get the [Latest Version](https://github.com/NightDream-Development/nd-dumpdive/releases/) of the script_
 _Then unzip in your [standealone] mapp. Remove "-master" tag from the script name_
 
 ## And now you done! Enyoj it!
