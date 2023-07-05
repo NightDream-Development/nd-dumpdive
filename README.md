@@ -1,4 +1,4 @@
-# **Welcome to  Night Dream Development github's.**
+# **NightDream - Dumpster Dive**
 ### This script is for qb-core. It is important to know that you will need three things to run this script.
 
 ## Required!
