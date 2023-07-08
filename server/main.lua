@@ -1,4 +1,5 @@
 local entities = {}
+lib.locale()
 QBCore = exports['qb-core']:GetCoreObject()
 
 RegisterNetEvent('nd-dumpdive:server:ResetEntity', function(entity)
@@ -33,22 +34,22 @@ local function pGive(playerId, item, amount)
         Player.Functions.AddItem(item, amount)
         if QBCore.Shared.Items[i.item].label then
             local itemString = amount .. 'x ' .. QBCore.Shared.Items[i.item].label
-            TriggerClientEvent('QBCore:Notify', playerId, Lang:t('notifies.you_got', {items = itemString}))
+            TriggerClientEvent('QBCore:Notify', playerId, locale('you_got'))
         else
-            TriggerClientEvent('QBCore:Notify', playerId, Lang:t('notifies.you_got', {items = item}))
+            TriggerClientEvent('QBCore:Notify', playerId, locale('you_got'))
         end
     elseif type(item) == 'table' and amount == 10000 then
         local itemString = ''
-        if #item <= 0 then TriggerClientEvent('QBCore:Notify', playerId, Lang:t('notifies.got_nothing')) return end
+        if #item <= 0 then TriggerClientEvent('QBCore:Notify', playerId, locale('got_nothing')) return end
         for _,i in pairs(item) do
             Player.Functions.AddItem(i.item, i.amount)
             itemString = i.amount .. 'x ' .. QBCore.Shared.Items[i.item].label .. ', ' .. itemString
         end
 
         if itemString ~= '' then
-            TriggerClientEvent('QBCore:Notify', playerId, Lang:t('notifies.you_got', {items = itemString}))
+            TriggerClientEvent('QBCore:Notify', playerId, locale('you_got'))
         else
-            TriggerClientEvent('QBCore:Notify', playerId, Lang:t('notifies.got_nothing'))
+            TriggerClientEvent('QBCore:Notify', playerId, locale('got_nothing'))
         end
     end
 end

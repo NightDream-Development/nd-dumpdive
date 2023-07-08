@@ -1,5 +1,6 @@
 QBCore = exports['qb-core']:GetCoreObject()
 isBusy = false
+lib.locale()
 
 if  Config.Minigame == 'ps-ui' then
     function MiniGame()
@@ -9,10 +10,17 @@ if  Config.Minigame == 'ps-ui' then
         end, 3, 10)
         return success
     end
+else
+    if Config.Minigame == 'ox' then
+        function MiniGame()
+        local success = lib.skillCheck({'easy', 'easy', {areaSize = 60, speedMultiplier = 2}, 'hard'}, {'1', '2', '3', '4'})
+        return success
+        end
+    end
 end
 
 function ProgressBar(ent)
-    QBCore.Functions.Progressbar('diving_in_dumpster', Lang:t('progress.diving'), Config.ProgressTime * 1000, false, true, {
+    QBCore.Functions.Progressbar('diving_in_dumpster', locale('progress.diving'), Config.ProgressTime * 1000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = true,
